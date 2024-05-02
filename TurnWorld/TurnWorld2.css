@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header2{
+    position: absolute;
+    left: 3%;
+}
+h1 {
+    margin: 1px;
+}   
+.logo{ 
+    position: absolute;
+	top:7px;
+    margin: 4px;
+    left: 4px;
+}
+.imagem1{
+    position: absolute;
+	top:35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.imagem2{
+    display: flex;
+}
+header {
+    background-color: #12dbff;
+    padding: 1px;
+    text-align: left;
+    margin: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+.texto {
+    position: absolute;
+    top: 1%;
+    left: 6%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
