@@ -1,0 +1,84 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background: linear-gradient(to bottom, #333, #555);
+    color: #fff;
+    padding: 40px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+
+footer {
+    background: linear-gradient(to bottom, #555, #777);
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+footer ul {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+footer ul li {
+    font-size: 1.2em;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    margin-right: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-media a:hover {
+    transform: scale(1.2);
+}
